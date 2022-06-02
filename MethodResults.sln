@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPSoft.MethodResults", "TPSoft.MethodResults\TPSoft.MethodResults.csproj", "{FC6CCDE0-325E-4A59-96BB-903CEFD63EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodResults", "TPSoft.MethodResults\MethodResults.csproj", "{FC6CCDE0-325E-4A59-96BB-903CEFD63EE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B49FCC7-D3F8-406A-BFD3-2C13F676AA9C}
 	EndGlobalSection
 EndGlobal

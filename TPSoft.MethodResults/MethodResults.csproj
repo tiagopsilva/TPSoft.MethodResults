@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
-    <AssemblyName>TPSoft.MethodResults</AssemblyName>
-    <RootNamespace>TPSoft.MethodResults</RootNamespace>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>MethodResults</AssemblyName>
+    <RootNamespace>MethodResults</RootNamespace>
     <Version>1.0.2</Version>
-    <Company>TPSoft</Company>
+    <Company>Tiago Silva</Company>
     <Authors>Tiago Silva</Authors>
     <AssemblyVersion>1.0.0.2</AssemblyVersion>
     <FileVersion>1.0.0.2</FileVersion>

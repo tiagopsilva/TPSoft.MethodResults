@@ -1,16 +1,15 @@
-﻿namespace TPSoft.MethodResults
+﻿namespace MethodResults
 {
     public class MethodResult<T> : MethodResult
     {
-        public MethodResult()
-        {
-        }
+        public MethodResult() { }
 
-        public MethodResult(string failureMessage)
-        {
-            AddFailure("", failureMessage);
-        }
+        public MethodResult(T data)
+            : base(data) { }
 
-        public new T Data { get; set; }
+        public MethodResult(string message)
+            : base(message) { }
+
+        public new T Data { get; }
     }
 }

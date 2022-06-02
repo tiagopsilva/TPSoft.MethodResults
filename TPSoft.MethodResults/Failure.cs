@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace TPSoft.MethodResults
+namespace MethodResults
 {
     public class Failure
     {
-        private readonly List<string> _messages = new List<string>();
+        private readonly IList<string> _messages = new List<string>();
 
         public Failure(string propertyName)
         {
@@ -20,7 +21,7 @@ namespace TPSoft.MethodResults
 
         public string PropertyName { get; }
 
-        public IReadOnlyList<string> Messages => _messages;
+        public IReadOnlyCollection<string> Messages => new ReadOnlyCollection<string>(_messages);
 
         public void Add(string message)
         {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TPSoft.MethodResults
+namespace MethodResults
 {
     public static class EnumerableExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TPSoft.MethodResults
+namespace MethodResults
 {
     internal static class StringExtensions
     {
